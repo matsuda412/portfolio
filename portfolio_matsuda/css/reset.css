@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #41403C;
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "palt";
+    font-size: 16px;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    outline: none;
+}
+
+button:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
